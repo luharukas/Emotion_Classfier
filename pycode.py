@@ -1,3 +1,4 @@
+#importing the modules
 import tensorflow as tf
 import cv2
 import numpy as np
@@ -10,6 +11,7 @@ from tensorflow.keras.layers import Dense,Flatten,InputLayer
 from tensorflow.keras.activations import softmax
 import seaborn as sns
 import matplotlib.pyplot as plt
+#Importing functions from tensorflow for preprocessinga and building the model
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.utils import Sequence
 from tensorflow.keras.models import Model
@@ -102,8 +104,9 @@ from sklearn import preprocessing
 
 test_img_data_array=[]
 test_class_name=[]
-#give path only till train folder
+#giving the path till the train folder
 img_folder="C:\\Users\\luhar\\OneDrive\\Documents\\Code with ShiviSandy\\emotion_classifier\\archive\\test"
+#Pre-processing each image from the folder
 for dir1 in os.listdir(img_folder):
         for file in os.listdir(os.path.join(img_folder, dir1)):
             image_path= os.path.join(img_folder, dir1,  file)
@@ -114,11 +117,12 @@ for dir1 in os.listdir(img_folder):
             test_img_data_array.append(image)
             test_class_name.append(dir1)
 label_encoder = preprocessing.LabelEncoder()
+#Performing fit and transform on the input data to transform the data points
 class_name= label_encoder.fit_transform(test_class_name)
 
 
 
-
+#Converting images to numpy arrays
 img_data_array=np.array(test_img_data_array)
 print(img_data_array[0].shape)
 print(len(test_class_name))

@@ -30,17 +30,17 @@ This software is developed on Windows 10 and all instructions are only valid if 
 **Step5:** Run “_streamlit run app.py_” in the cmd to run the application on your web browser.
  You get a result something like this.
  
- ![image](https://drive.google.com/file/d/1iXsiQYvm47xxts5E8xhKvrzuOaq0l5p1/view/)
+ ![image](/Images/2.jpg)
  
  **Step6:** On the left sidebar, you get small details about our software. In main page you will get the option to upload the image. We are providing some sample data for you to test the application. You get this image in the folder **Image sample**.
  
- ![image](https://drive.google.com/file/d/1ycCSE734qUiwqzH4yjz-KY_n-jnUE1Q0/view?usp=sharing)
+ ![image](/Images/1.jpg)
  
- ![image](https://drive.google.com/file/d/15SP7I-ZyxTplr814Xy-Dyht7MkNimSAU/view?usp=sharing)
+ ![image](/Images/3.jpg)
  
 **Step7:** After uploading it will automatically show the original image in the before section and after on right hand side in the after section you get the image after applying gabor filter. In the last you will see the predicted emotion of that image. 
 
-![image](https://drive.google.com/file/d/1bIFvxNtyjsNi1QYM-KY5ZJQUozOp0j18/view?usp=sharing)
+![image](/Images/4.jpg)
 
 **Note:** There are some extra files are present which is supporting file of **app.py** and **main.ipynb**. Removal of these file might cause the program failure.
 

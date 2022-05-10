@@ -64,7 +64,7 @@ img_data_array=[]
 class_name=[]
 #give path only till train folder
 # Load Dataset from give Folder 
-img_folder=r"C:\Users\luhar\Projects\Emotion_Classfier\dataset CK+\ck+"
+img_folder=r"dataset CK+/ck+"
 for dir1 in os.listdir(img_folder):
         for file in os.listdir(os.path.join(img_folder, dir1)):
             image_path= os.path.join(img_folder, dir1,  file)
@@ -115,7 +115,7 @@ model=Sequential([
     ])
 # COmpile the model with optimizer and loss function 
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy',metrics=['accuracy'])
-history=model.fit(x_train,y_train,validation_split=0.1,epochs=30,shuffle=True,)
+history=model.fit(x_train,y_train,validation_split=0.1,epochs=15,shuffle=True,)
 frame = pd.DataFrame(history.history)
 print(frame)
 model.save('my_model')

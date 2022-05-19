@@ -6,17 +6,27 @@ This software is developed on Windows 10 and all instructions are only valid if 
 
 #### Hardware Requirement:
 
- * 64-bit distribution capable of running 32-bit applications.
+ A Personal Computer(PC) with following minimum requirements.
  * 8GB RAM recommended; 
- * GPU 4GB (Optional)
  * Disk Space:10 GB
 
 #### Software Requirement:
+* Operating System should be only Ubuntu20.04 amd64. 
+* Python3.8
 * Web Browser to host application (Google Chrome, Firefox Recommended)
-* IDE to run Python Program
-* CUDA Toolkit, If you are PC supported CUDA. (optional)
 
-#### Instruction to use software:
+
+#### Instruction to use software in Ubuntu20.04 System:
+**Step1:** Open Terminal (Make sure that you have **internet access** because system need to install other dependecies.)
+**Step2:** Place the startup.sh in **$HOME** directory.
+**Step3:** Run the command **bash startup.sh**. (Wait for some time. It will install the directories and all the file dependencies on your system. It will approximetly take 30-45 min)
+**Step4:**  A web application will open on your browser(Google chrome recommended) and give you option to choose an image.
+**Step5:** Click on **Browse file** and choose one file from **Image sample folder**
+**Step6:** Click on open
+
+You will get result.
+
+#### Instruction to use software in Windows System:
 
 **Step1:** Before proceeding, First unzip the **Data.zip** file. There you will get two folders **dataset CK+** and **Image samples**. Folder **dataset ck+** contains the image used to train the Convolutional Neural Network.
 

@@ -6,9 +6,9 @@ This software is developed on one flavour of linux Kernel Ubuntu and all instruc
 
 #### Hardware Requirement:
 
- A Personal Computer(PC) with following minimum requirements.
+ A Personal Computer (PC) with following minimum requirements.
  * 8GB RAM recommended; 
- * Disk Space:10 GB
+ * Disk Space: 10 GB
 
 #### Software Requirement:
 * Operating System should be only Ubuntu20.04 amd64. 
@@ -16,9 +16,9 @@ This software is developed on one flavour of linux Kernel Ubuntu and all instruc
 * Web Browser to host application (Google Chrome, Firefox Recommended)
 
 
-#### Instruction to use software in Ubuntu20.04 System:
+#### Instructions to use software in Ubuntu20.04 System:
 
-**Step1:** Open Terminal (Make sure that you have **internet access** because system need to install other dependecies.)
+**Step1:** Open Terminal (Make sure that you have **internet access** because system need to install other dependencies.)
 
 **Step2:** Place the startup.sh in **$HOME** directory.
 

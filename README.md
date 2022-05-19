@@ -1,7 +1,7 @@
 # Facial Emotion Recognition of Spatial Image using Gabor Filter.
 ### Hardware and Software Used:-
 <p>
-This software is developed on Windows 10 and all instructions are only valid if you are using Windows 10 OS.
+This software is developed on one flavour of linux Kernel Ubuntu and all instructions are only valid if you are using Ubuntu20.04. We are also providing instructions if you are using windows to run. 
 </p>
 
 #### Hardware Requirement:
@@ -17,16 +17,31 @@ This software is developed on Windows 10 and all instructions are only valid if 
 
 
 #### Instruction to use software in Ubuntu20.04 System:
+
 **Step1:** Open Terminal (Make sure that you have **internet access** because system need to install other dependecies.)
+
 **Step2:** Place the startup.sh in **$HOME** directory.
-**Step3:** Run the command **bash startup.sh**. (Wait for some time. It will install the directories and all the file dependencies on your system. It will approximetly take 30-45 min)
+
+**Step3:** Run the command **bash startup.sh** (Wait for some time. It will install the directories and all the file dependencies on your system. It will approximetly take 30-45 min)
+
 **Step4:**  A web application will open on your browser(Google chrome recommended) and give you option to choose an image.
-**Step5:** Click on **Browse file** and choose one file from **Image sample folder**
-**Step6:** Click on open
+ 
 
-You will get result.
+**Step5:** On the left sidebar, you get small details about our software. In main page you will get the option to upload the image. We are providing some sample data for you to test the application. You get this image in the folder **Image sample**.
+ 
+ ![image](/Images/1.jpg)
+ 
+ ![image](/Images/3.jpg)
 
-#### Instruction to use software in Windows System:
+**Step6:** After uploading it will automatically show the original image in the before section and after on right hand side in the after section you get the image after applying gabor filter. In the last you will see the predicted emotion of that image. 
+
+![image](/Images/4.jpg)
+
+**You will get result.**
+
+
+
+#### Instruction to use software in Windows System (if you are using Windows10 OS with Python3.8):
 
 **Step1:** Before proceeding, First unzip the **Data.zip** file. There you will get two folders **dataset CK+** and **Image samples**. Folder **dataset ck+** contains the image used to train the Convolutional Neural Network.
 
